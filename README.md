@@ -5,7 +5,7 @@ This is an LWIR stereo-hyperspectral database to develop HADAR algorithms for th
 
 1. [Introduction](#introduction)
 2. [Database](#Database)
-3. [Semi-Global Decomposition and TeX Vision Matlab Code](#Semi-Global-Decomposition-and-TeX-Vision-Matlab-Code)
+3. [TeX-SGD (Semi-Global Decomposition) and TeX Vision Matlab Code](#Semi-Global-Decomposition-and-TeX-Vision-Matlab-Code)
 4. [Contacts](#contacts)
 
 ## Introduction
@@ -24,11 +24,10 @@ Machine perception uses advanced sensors to collect information of the surroundi
 
 ## Database
 
-- The dataset consists of 10 scenes that are simulated. The thermal images contained within each scene have a spatial resolution of 1080 x 1920 and a spectral resolution of 54. These 54 spectral channels are within the heat spectrum 715 - 1250 cm<sup>-1</sup>. 
-- Scene 11 contains real-world experimental data.
-- The dataset and the video demonstration of TeX vision can be downloaded from the following links:
+- The current HADAR database consists of 11 datasets, with scenes ranging from Crowded street, Highway, to Suburb, Countryside, to Indoor, and to Forest and Desert, covering most common road conditions that HADAR may find applications in. The first 10 scenes are synthetic datasets mimicing self driving situations, with two HADAR sensors, left (L) and right (R), either mounted at the positions of headlights, or on the top of the automated vehicles, or on robot helpers. Each scene has two views from two stereo sensors. Each view has 5 frames. Each frame is a Height*Width*Channel = 1080*1920*54 heat cube. The 11th dataset is a real-world experimental scene with only one view and 4 frames. Each frame is a Height*Width*Channel = 260*1500*49 heat cube.
+- The database and the video demonstration of TeX vision can be downloaded from the following links:
 
-| HADAR Dataset |  Real-world and Numeric TeX videos|
+| HADAR Database |  Real-world and Numeric TeX videos|
 |---|---|
 |[OneDrive](https://purdue0-my.sharepoint.com/personal/baof_purdue_edu/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fbaof%5Fpurdue%5Fedu%2FDocuments%2FHADAR%2FHADAR%20database)|[OneDrive](https://purdue0-my.sharepoint.com/personal/baof_purdue_edu/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fbaof%5Fpurdue%5Fedu%2FDocuments%2FHADAR%2FReal%2Dworld%20and%20numeric%20TeX%20vision%20video%20demonstrations%20at%20night)|[OneDrive]
 
