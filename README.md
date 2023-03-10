@@ -14,14 +14,12 @@ Machine perception uses advanced sensors to collect information of the surroundi
 
 <p align="center">
   <img src="https://github.com/FanglinBao/HADAR/blob/main/Fig1.png" alt="Sublime's custom image"/>
-  
-  Fig.1 HADAR as a paradigm shift in machine perception.
+  <em>Fig.1 HADAR as a paradigm shift in machine perception.</em>
 </p>
 
 <p align="center">
   <img src="https://github.com/FanglinBao/HADAR/blob/main/Fig2.png" alt="Sublime's custom image"/>
-  
-  Fig.2 HADAR ranging at night beats thermal ranging and matches RGB stereovision in daylight.
+  <em>Fig.2 HADAR ranging at night beats thermal ranging and matches RGB stereovision in daylight.</em>
 </p>
 
 ## Database
