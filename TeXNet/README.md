@@ -19,7 +19,7 @@ Architecture of our TeX-Net for inverse TeX decomposition. TeX-Net is physics-in
 ## Implementation Details
 
 ### Dependencies
-All the dependencies are included in a .yml file downloaded from the following link:<br />
+All the dependencies are included in a .yml file that can be downloaded from the following link:<br />
 [OneDrive](https://purdue0-my.sharepoint.com/personal/baof_purdue_edu/_layouts/15/onedrive.aspx?ga=1&noAuthRedirect=1&id=%2Fpersonal%2Fbaof%5Fpurdue%5Fedu%2FDocuments%2FHADAR%2FTeX%2DNet%2Ftexnet%2Eyml&parent=%2Fpersonal%2Fbaof%5Fpurdue%5Fedu%2FDocuments%2FHADAR%2FTeX%2DNet)
 
 ```
