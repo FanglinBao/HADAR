@@ -16,6 +16,10 @@ Machine perception uses advanced sensors to collect information of the surroundi
   <img src="https://github.com/FanglinBao/HADAR/blob/main/Fig1.png" alt="Sublime's custom image"/>
 </p>
 
+<p align="center">
+  <img src="https://github.com/FanglinBao/HADAR/blob/main/Fig2.png" alt="Sublime's custom image"/>
+</p>
+
 ## Database
 
 - The dataset consists of 10 scenes that are simulated. The thermal images contained within each scene have a spatial resolution of 1080 x 1920 and a spectral resolution of 54. These 54 spectral channels are within the heat spectrum 715 - 1250 cm<sup>-1</sup>. 
