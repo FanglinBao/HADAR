@@ -14,8 +14,8 @@ Machine perception uses advanced sensors to collect information of the surroundi
 
 <p align="center">
   <img src="https://github.com/FanglinBao/HADAR/blob/main/Fig1.png" alt="Sublime's custom image"/>
-  <figcaption>{{ Fig.1 HADAR as a paradigm shift in machine perception. }}</figcaption>
 </p>
+<em>Fig.1 HADAR as a paradigm shift in machine perception.</em>
 
 <p align="center">
   <img src="https://github.com/FanglinBao/HADAR/blob/main/Fig2.png" alt="Sublime's custom image"/>
