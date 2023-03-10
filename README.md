@@ -32,6 +32,9 @@ Machine perception uses advanced sensors to collect information of the surroundi
 |[OneDrive](https://purdue0-my.sharepoint.com/personal/baof_purdue_edu/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fbaof%5Fpurdue%5Fedu%2FDocuments%2FHADAR%2FHADAR%20database)|[OneDrive](https://purdue0-my.sharepoint.com/personal/baof_purdue_edu/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fbaof%5Fpurdue%5Fedu%2FDocuments%2FHADAR%2FReal%2Dworld%20and%20numeric%20TeX%20vision%20video%20demonstrations%20at%20night)|[OneDrive]
 
 ## TeX-SGD and TeX Vision Matlab Code
+
+mainTeX.m gives line-by-line sample commands with comments to use the TeX code package. The code package can be downloaded from the following link:
+
 [OneDrive](https://purdue0-my.sharepoint.com/personal/baof_purdue_edu/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fbaof%5Fpurdue%5Fedu%2FDocuments%2FHADAR%2FSGD%5Fand%5FTeX%5Fvision%5Fmatlab%5Fcode%5Fpackage)
 
 
