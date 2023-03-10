@@ -4,7 +4,7 @@ This is an LWIR stereo-hyperspectral database to develop HADAR algorithms for th
 ## Contents
 
 1. [Introduction](#introduction)
-2. [Images](#Images)
+2. [Database](#Database)
 3. [Semi-Global Decomposition and TeX Vision Matlab Code](#Semi-Global-Decomposition-and-TeX-Vision-Matlab-Code)
 4. [Contacts](#contacts)
 
@@ -16,13 +16,13 @@ Machine perception uses advanced sensors to collect information of the surroundi
   <img src="https://github.com/FanglinBao/HADAR/blob/main/Fig1.pdf" alt="Sublime's custom image"/>
 </p>
 
-## Images
+## Database
 
 - The dataset consists of 10 scenes that are simulated. The thermal images contained within each scene have a spatial resolution of 1080 x 1920 and a spectral resolution of 54. These 54 spectral channels are within the heat spectrum 715 - 1250 cm<sup>-1</sup>. 
 - Scene 11 contains real-world experimental data.
 - The dataset and the video demonstration of TeX vision can be downloaded from the following links:
 
-| HADAR Dataset |  Real-world and Numeric TeX vision|
+| HADAR Dataset |  Real-world and Numeric TeX videos|
 |---|---|
 |[OneDrive](https://purdue0-my.sharepoint.com/personal/baof_purdue_edu/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fbaof%5Fpurdue%5Fedu%2FDocuments%2FHADAR%2FHADAR%20database)|[OneDrive](https://purdue0-my.sharepoint.com/personal/baof_purdue_edu/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fbaof%5Fpurdue%5Fedu%2FDocuments%2FHADAR%2FReal%2Dworld%20and%20numeric%20TeX%20vision%20video%20demonstrations%20at%20night)|[OneDrive]
 
