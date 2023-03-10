@@ -24,7 +24,7 @@ Machine perception uses advanced sensors to collect information of the surroundi
 
 ## Database
 
-- The current HADAR database consists of 11 datasets, with scenes ranging from Crowded street, Highway, to Suburb, Countryside, to Indoor, and to Forest and Desert, covering most common road conditions that HADAR may find applications in. The first 10 scenes are synthetic datasets mimicing self driving situations, with two HADAR sensors, left (L) and right (R), either mounted at the positions of headlights, or on the top of the automated vehicles, or on robot helpers. Each scene has two views from two stereo sensors. Each view has 5 frames. Each frame is a Height*Width*Channel = 1080*1920*54 heat cube. The 11th dataset is a real-world experimental scene with only one view and 4 frames. Each frame is a Height*Width*Channel = 260*1500*49 heat cube.
+- The current HADAR database consists of 11 datasets, with scenes ranging from Crowded street, Highway, to Suburb, Countryside, to Indoor, and to Forest and Desert, covering most common road conditions that HADAR may find applications in. The first 10 scenes are synthetic datasets mimicing self driving situations, with two HADAR sensors, left (L) and right (R), either mounted at the positions of headlights, or on the top of the automated vehicles, or on robot helpers. Each scene has two views from two stereo sensors. Each view has 5 frames. Each frame is a Height-Width-Channel = 1080-1920-54 heat cube. The 11th dataset is a real-world experimental scene with only one view and 4 frames. Each frame is a Height-Width-Channel = 260-1500-49 heat cube.
 - The database and the video demonstration of TeX vision can be downloaded from the following links:
 
 | HADAR Database |  Real-world and Numeric TeX videos|
