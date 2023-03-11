@@ -5,7 +5,7 @@ This page contains the architecture, implementation details, and the code (in Py
 
 1. [Introduction](#introduction)
 2. [Implementation Details](#Implementation-Details)
-3. [Results](#Results)
+3. [Results and Pre-trained Weights](#Results-and-Pre-trained-Weights)
 4. [Contacts](#contacts)
 
 ## Introduction
@@ -40,13 +40,16 @@ The following command can be treated as an example to validate the trained model
 python main.py --ngpus 1 --backbone resnet50 --data_dir ../ --workers 8 --epochs 40000 --checkpoint_dir supervised_check_crop --lr 1e-3 --weight-decay 1e-3 --train_T --train_v --no_log_images --eval_every 500 --res full --batch-size 10 --seed 42 --resume (trained model checkpoint) --eval
 ```
 
-## Results
+## Results and Pre-trained Weights
 
 The TeX-Net performance on the HADAR database is shown below.
 
 <p align="center">
   <img src="https://github.com/FanglinBao/HADAR/blob/main/TeXNet/Fig3.png" />
 </p>
+
+Pre-trained weights are available through the following link:<br />
+[OneDrive](https://purdue0-my.sharepoint.com/personal/baof_purdue_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fbaof%5Fpurdue%5Fedu%2FDocuments%2FHADAR%2FTeX%2DNet)
 
 Training loss curves are available through "get_loss_curves.py" in the following link:<br />
 [OneDrive](https://purdue0-my.sharepoint.com/personal/baof_purdue_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fbaof%5Fpurdue%5Fedu%2FDocuments%2FHADAR%2FTeX%2DNet)
