@@ -1,5 +1,5 @@
 # TEXNet
-This page contains the architecture, implementation details, and the code (in PyTorch) for "TeXNet", a DNN to decompose thermal images into Temperature, emissivity, and Texture maps.
+This page contains the architecture, implementation details, and the code (in PyTorch) for "TeX-Net", a DNN to decompose heat cubes (hyperspectral thermal images) into Temperature, emissivity, and Texture maps.
 
 ## Contents
 
