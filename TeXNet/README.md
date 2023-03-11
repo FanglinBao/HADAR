@@ -42,8 +42,13 @@ python main.py --ngpus 1 --backbone resnet50 --data_dir ../ --workers 8 --epochs
 
 ## Results
 
+The TeX-Net performance on the HADAR database is shown below.
+
 <p align="center">
   <img src="https://github.com/FanglinBao/HADAR/blob/main/TeXNet/Fig3.png" />
 </p>
+
+Training loss curves are available through "get_loss_curves.py" in the following link:<br />
+[OneDrive](https://purdue0-my.sharepoint.com/personal/baof_purdue_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fbaof%5Fpurdue%5Fedu%2FDocuments%2FHADAR%2FTeX%2DNet)
 
 ## Contacts
