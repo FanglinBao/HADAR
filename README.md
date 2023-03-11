@@ -40,5 +40,7 @@ Machine perception uses advanced sensors to collect information of the surroundi
 
 ## TeX-Net
 
+Please see the folder TeXNet.
+
 ## Contacts
 
