@@ -45,3 +45,5 @@ python main.py --ngpus 1 --backbone resnet50 --data_dir ../ --workers 8 --epochs
 <p align="center">
   <img src="https://github.com/FanglinBao/HADAR/blob/main/TeXNet/TeXNet_Results.png" />
 </p>
+
+## Contacts
