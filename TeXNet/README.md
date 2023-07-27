@@ -52,6 +52,6 @@ Pre-trained weights and training loss curves are available through the following
 
 | Pre-trained weights |  Training loss curves |
 |---|---|
-|[OneDrive](https://purdue0-my.sharepoint.com/personal/baof_purdue_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fbaof%5Fpurdue%5Fedu%2FDocuments%2FHADAR%2FTeX%2DNet)|[OneDrive](https://purdue0-my.sharepoint.com/personal/baof_purdue_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fbaof%5Fpurdue%5Fedu%2FDocuments%2FHADAR%2FTeX%2DNet)|
+|[OneDrive](https://purdue0-my.sharepoint.com/:f:/g/personal/baof_purdue_edu/ElbrW3lNLrBGqBkSnxwYyCsBn8drwRriwocKk1L5EssioA?e=tykNhr)|[OneDrive](https://purdue0-my.sharepoint.com/:f:/g/personal/baof_purdue_edu/ElbrW3lNLrBGqBkSnxwYyCsBn8drwRriwocKk1L5EssioA?e=tykNhr)|
 
 ## Contacts
