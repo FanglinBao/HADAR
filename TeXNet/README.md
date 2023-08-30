@@ -42,7 +42,7 @@ python main.py --ngpus 1 --backbone resnet50 --data_dir ../ --workers 8 --epochs
 
 ## Results and Pre-trained Weights
 
-The TeX-Net outputs T, e, and V. Please run visualization after evaluating the TeX-Net to get the resMap. Please see the demo codes in 'Check_TeX_Vision_for_TeXNet_Outputs.txt' to get TeX vision images for TeX-Net. The TeX-Net performance on the HADAR database is shown below.
+The TeX-Net outputs T, e, and V. Please run visualization after evaluating the TeX-Net to get the resMap. Please see the demo codes in 'Check_TeX_Vision_for_TeXNet_Outputs.txt' in this folder to get TeX vision images for TeX-Net. The TeX-Net performance on the HADAR database is shown below.
 
 <p align="center">
   <img src="https://github.com/FanglinBao/HADAR/blob/main/TeXNet/Fig3.png" />
