@@ -1,0 +1,41 @@
+clear;clc
+myTeX = TeX();
+myTeX.datatype = 'monocular'; % monocular single cube, or binocular stereo cubes
+myTeX.pathname = 'YourPath/';
+myTeX.extname = 'mat';
+myTeX.sensortype = 'synthetic';
+myTeX.sensorNETD = 0.01;
+myTeX.numExObj = 0; % significant objects beyond the view, including sun and sky
+myTeX.sunLight = false; % with direct sunshine?
+myTeX.skyLight = false; % with open sky illumination?
+myTeX.parallelComputing = false;
+myTeX.iter = 0; % depending on your naming format, pls modify accordingly.
+myTeX.HueLib = importdata(['YourPathofHueLib\HueLib_full.mat']);
+myTeX.matLib = importdata(['YourPathofMatLib\matLib_full.mat']);
+figure;
+for ind=1%1:2:43
+    myTeX.filename = num2str(ind);
+    myTeX.tMap = (readNPY([myTeX.pathname,'T_pred_',num2str(ind),'.npy']));
+    myTeX.eMap = readNPY([myTeX.pathname,'m_pred_',num2str(ind),'.npy']) + 1;
+%     eList = importdata('YourPathofEList\eList.mat');
+%     myTeX.eMap = eList(myTeX.eMap);
+    vMap = readNPY([myTeX.pathname,'v_pred_',num2str(ind),'.npy']);
+    myTeX.vMap = permute(vMap,[2,3,1]);
+
+    [~,~,~] = mkdir([myTeX.pathname,myTeX.filename,'_TeX_AppData/']);
+    myTeX.resMap = (readNPY([myTeX.pathname,'residue_',num2str(ind),'_no_rescale.npy']));
+    myTeX.xMap = rescale((myTeX.resMap),0,1,'InputMax',quantile(reshape(myTeX.resMap,[],1),0.95),'InputMin',quantile(reshape(myTeX.resMap,[],1),0.0));
+
+    tmp = myTeX.tMap;
+    save([myTeX.pathname,myTeX.filename,'_TeX_AppData/','tMap',num2str(myTeX.iter),'.mat'],'-mat','tmp');
+    tmp = myTeX.eMap;
+    save([myTeX.pathname,myTeX.filename,'_TeX_AppData/','eMap',num2str(myTeX.iter),'.mat'],'-mat','tmp');
+    tmp = myTeX.xMap;
+    save([myTeX.pathname,myTeX.filename,'_TeX_AppData/','xMap',num2str(myTeX.iter),'.mat'],'-mat','tmp');
+    tmp = myTeX.HueLib;
+    save([myTeX.pathname,myTeX.filename,'_TeX_AppData/','HueLib',num2str(myTeX.iter),'.mat'],'-mat','tmp');
+    
+    [myTeX,texIMG] = myTeX.Vision('plot',false);
+    imwrite(texIMG,[myTeX.pathname,myTeX.filename,'_TeX_AppData/tex.png']);
+    image(texIMG);axis off;axis image;drawnow
+end
