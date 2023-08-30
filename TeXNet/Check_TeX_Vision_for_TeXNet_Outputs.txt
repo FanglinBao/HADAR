@@ -10,8 +10,8 @@ myTeX.sunLight = false; % with direct sunshine?
 myTeX.skyLight = false; % with open sky illumination?
 myTeX.parallelComputing = false;
 myTeX.iter = 0; % depending on your naming format, pls modify accordingly.
-myTeX.HueLib = importdata(['YourPathofHueLib\HueLib_full.mat']);
-myTeX.matLib = importdata(['YourPathofMatLib\matLib_full.mat']);
+myTeX.HueLib = importdata(['YourPathofHueLib\HueLib_full.mat']); % HueLib_full and matLib_full can be downloaded from the HADAR database where they are named as *Lib_FullDatabase.mat.
+myTeX.matLib = importdata(['YourPathofMatLib\matLib_full.mat']); % Please download and rename accordingly.
 figure;
 for ind=1%1:2:43
     myTeX.filename = num2str(ind);
