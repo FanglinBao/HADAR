@@ -44,3 +44,4 @@ Please see the folder TeXNet.
 
 ## Contacts
 
+Dr. Fanglin Bao (baof<at>purdue<dot>edu)
