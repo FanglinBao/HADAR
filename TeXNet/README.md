@@ -20,7 +20,7 @@ Architecture of our TeX-Net for inverse TeX decomposition. TeX-Net is physics-in
 
 ### Dependencies
 All the dependencies are included in a .yml file that can be downloaded from the following link:<br />
-[OneDrive](https://purdue0-my.sharepoint.com/:u:/g/personal/baof_purdue_edu/ESd60MOO0j9HnlClvf7IZFgBXnhN1iHLxl0IPoYKa6zHCQ?e=s5IORC)
+[OneDrive](https://purdue0-my.sharepoint.com/:u:/g/personal/sjape_purdue_edu/EfY-p4JvzfxJtVGYUKba0FMBZZwZCEPrXpAud05nsuo-pg?e=v0JgaQ)
 
 ```
 conda env create -f texnet.yml
@@ -52,6 +52,6 @@ Pre-trained weights and training loss curves are available through the following
 
 | Pre-trained weights |  Training loss curves |
 |---|---|
-|[OneDrive](https://purdue0-my.sharepoint.com/:f:/g/personal/baof_purdue_edu/ElbrW3lNLrBGqBkSnxwYyCsBn8drwRriwocKk1L5EssioA?e=tykNhr)|[OneDrive](https://purdue0-my.sharepoint.com/:f:/g/personal/baof_purdue_edu/ElbrW3lNLrBGqBkSnxwYyCsBn8drwRriwocKk1L5EssioA?e=tykNhr)|
+|[OneDrive](https://purdue0-my.sharepoint.com/:f:/g/personal/sjape_purdue_edu/Ei3BWYRaU3BFt7e6C1YDu2MByBIb3_3WA96FuR2bXWgoyg?e=gF28b4)|[OneDrive](https://purdue0-my.sharepoint.com/:f:/g/personal/sjape_purdue_edu/Ei3BWYRaU3BFt7e6C1YDu2MByBIb3_3WA96FuR2bXWgoyg?e=gF28b4)|
 
 ## Contacts
