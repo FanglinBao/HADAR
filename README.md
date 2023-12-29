@@ -32,6 +32,10 @@ Machine perception uses advanced sensors to collect information of the surroundi
 |---|---|---|
 |[OneDrive](https://purdue0-my.sharepoint.com/:f:/g/personal/sjape_purdue_edu/Enhca6JZUlNOm5BEIDnj7N0B_jNzZB0eE7ha_fCJtkDPgA?e=GIBcFL)|[OneDrive](https://purdue0-my.sharepoint.com/:f:/g/personal/sjape_purdue_edu/EgOSZhDdEe5Bo-fSPP7b4X4BII5v5X0iJfB6TJoegddrJA?e=gnMmi4)|[OneDrive](https://purdue0-my.sharepoint.com/:t:/g/personal/sjape_purdue_edu/EV1KOivhzqJMpd4v7dIQkA0B8Z8ciFN2iUQCkbKhc1lrgg?e=hlQg0u)|
 
+- The dataset-12 with non-uniform temperature can be downloaded from the following link:<br />
+[OneDrive](https://purdue0-my.sharepoint.com/:u:/g/personal/baof_purdue_edu/EQezQml4xfBIuD8ItRGV1qIBWGaYezu_M2YJu9msXDWbow)
+
+
 ## TeX Code Package
 
 - The TeX code package contains the matlab codes for TeX-SGD (Semi-Global-Decomposition) and TeX vision visualization.
